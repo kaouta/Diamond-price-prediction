@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+    <title>ML API</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+  
+    </head>  
+    <body>
+ <div>
+    <h1>Diamond price prediction</h1>
+
+    <form action="/predict" method="POST">
+        <div>
+            <p>Carat</p>
+            <input type="text" name = "carat" id="carat">
+        </div>
+        
+        <div>
+            <p>Cut</p>
+            <input type="text" name = "cut" id="cut">
+        </div>
+
+        <div>
+            <p>Color</p>
+            <input type="text" name = "color" id="color">
+        </div>
+
+        <div>
+            <p>Clarity</p>
+            <input type="text" name = "clarity" id="clarity">
+        </div>
+        <div>
+            <p>Depth</p>
+            <input type="text" name = "depth" id="depth">
+        </div>
+        <div>
+            <p>Table</p>
+            <input type="text" name = "table" id="table">
+        </div>
+        <div>
+            <p>Length</p>
+            <input type="text" name = "x" id="x">
+        </div>
+        <div>
+            <p>Width</p>
+            <input type="text" name = "y" id="y">
+        </div>
+        <div>
+            <p>Height</p>
+            <input type="text" name = "z" id="z">
+        </div>
+
+        <input type="submit" value="Predict">
+    </form>
+     
+             <h2>Predicted: {{ prediction_text }}</h2>
+
+</div>
+
+</body>
+</html>
+
