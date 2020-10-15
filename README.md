@@ -15,8 +15,10 @@ Third component is the website built in html, css and javascript that allows use
 * Jupyter notebook, visual studio code and pycharm as IDE
 * Python flask for http server
 * HTML/CSS/Javascript for UI
+
 The models used accuracies:
-![](https://github.com/kaouta/Diamond-price-prediction/blob/master/accuracies.png) i[](https://github.com/kaouta/Diamond-price-prediction/blob/master/regressio_models.png)
+
+![](https://github.com/kaouta/Diamond-price-prediction/blob/master/accuracies.png)  ![](https://github.com/kaouta/Diamond-price-prediction/blob/master/regressio_models.png)
 as we can see , the lasso regression wored the best for our models with accuracy 90%
 # Ressources:
 for flask and rest-api part:https://rubikscode.net/2020/02/10/deploying-machine-learning-models-pt-1-flask-and-rest-api/
